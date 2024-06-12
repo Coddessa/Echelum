@@ -1,0 +1,115 @@
+.backround {
+  background-color: $greenVeryLight;
+  height: 45em;
+  width: 100vw;
+  position: absolute;
+  z-index: -1;
+}
+
+.pageWrapp {
+  width: 1440px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.pageCont {
+  margin-left: 28em;
+  padding-top: 5em;
+  width: calc(144em - 60em);
+}
+
+.pageCont.active {
+  margin-left: 11em;
+  width: calc(144em - 43em);
+}
+
+.mainScreen {
+  display: flex;
+  height: 40em;
+  justify-content: space-between;
+  width: 100%;
+
+  .mainScreenInfo {
+    .breadcrumbs {
+      padding-top: 3em;
+      padding-bottom: 0.5em;
+    }
+    .mainScreenTitles {
+      padding-top: 1.6em;
+      .plantPageTitle {
+        font-size: 3.2em;
+        font-weight: 800;
+        color: $greenDark;
+      }
+
+      .plantPageTitle2 {
+        font-size: 1.8em;
+        color: $greenDark;
+        padding-top: 0.5em;
+        .bold {
+          font-weight: 700;
+          color: $greenDark;
+        }
+      }
+
+      .plantPageTitle3 {
+        font-weight: 400;
+        color: $grayLight;
+        font-size: 1.4em;
+        padding-top: 0.7em;
+      }
+      padding-right: 3em;
+    }
+
+    .mainScreenIcons {
+      display: flex;
+      padding-top: 2em;
+      justify-content: space-between;
+      .mainScreenIconsBlock {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 7em;
+        text-align: center;
+        height: 8em;
+        .IconsBlockText {
+          padding-top: 1.2em;
+          font-size: 14px;
+          font-weight: 500;
+          color: $gray;
+          width: 100%;
+        }
+        .IconsBlockTitle {
+          padding-top: 0.7em;
+          font-size: 12px;
+          font-weight: 400;
+          color: $grayLight;
+        }
+      }
+    }
+  }
+}
+.mainScreenSlider {
+  width: 40em;
+  height: 100%;
+  margin-left: 3em;
+  z-index: 1;
+}
+
+.TabCont {
+  margin-left: 25em;
+  width: calc(144em - 57em);
+}
+.TabCont.active {
+  margin-left: 8em;
+  width: calc(144em - 40em);
+}
+
+.synonym {
+  font-weight: 700;
+}
+
+.or-word {
+  font-weight: 400;
+}

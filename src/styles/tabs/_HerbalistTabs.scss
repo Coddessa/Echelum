@@ -1,0 +1,225 @@
+.tabContainer {
+  display: flex;
+}
+
+.tabText {
+  width: 70%;
+  .ipniContainer {
+    display: flex;
+    background-color: $greenVeryLight;
+    margin-top: 1em;
+    width: calc(100% - 1.6em);
+    border-radius: 1.6em;
+    align-items: center;
+  }
+  .ipniContainer:hover {
+    background-color: $greenLight;
+  }
+  .ipni {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1.6em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    padding-right: 1em;
+    font-weight: 600;
+  }
+
+  .ipniData {
+    font-weight: 400;
+  }
+
+  .ipniHref {
+    text-decoration: none;
+    color: $gray;
+  }
+  .href {
+    text-decoration: none;
+    color: $gray;
+  }
+  .href:hover {
+    text-decoration: underline;
+  }
+  .public {
+    padding-top: 0.6em;
+  }
+  .ipniIconHref {
+    padding-right: 1.6em;
+  }
+  .descriptionColm {
+    width: calc(100% - 1.6em);
+  }
+  .description {
+    margin-top: 1.6em;
+    color: $text;
+  }
+  .descriptionSubTitle {
+    color: $gray;
+    font-weight: 600;
+    font-size: 22px;
+    padding-top: 24px;
+  }
+  .descriptionSubText {
+    padding-top: 0.5em;
+    color: $text;
+  }
+  .subTitleBold {
+    font-weight: 600;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    color: $gray;
+  }
+
+  .elementsContainer {
+    padding-left: 2em;
+  }
+
+  .elementsGroup {
+    font-weight: 500;
+    color: $gray;
+    padding-top: 16px;
+    padding-bottom: 6px;
+    font-size: 18px;
+  }
+
+  .elementsGroupDescr {
+    font-size: 16px;
+  }
+
+  .elementTitle {
+    font-weight: 500;
+    color: $gray;
+    padding-bottom: 0.4em;
+    padding-top: 0.4em;
+    color: $gray;
+  }
+  .good {
+    color: #7f9b60;
+  }
+  .bad {
+    color: #bd8570;
+  }
+  .accordion {
+    padding-top: 1em;
+  }
+
+  .groupDescription {
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .partTitle {
+    padding-top: 24px;
+    color: $gray;
+    font-weight: 600;
+    font-size: 22px;
+  }
+  .date {
+    font-size: 12px;
+  }
+}
+.tabInfoContainer {
+  width: 400px;
+
+  .tabInfo {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    margin-left: 0em;
+    border: solid 0.1em $border;
+    border-radius: 1.6em;
+    margin-bottom: 1.6em;
+
+    .tabInfoTitle {
+      text-align: center;
+      padding: 1em 1.8em;
+      font-size: 1em;
+      color: $gray;
+      font-weight: 600;
+      border-bottom: solid 1px $border;
+    }
+
+    .tabInfoTitle0 {
+      text-align: center;
+      padding-top: 24px;
+      font-size: 1em;
+      color: $gray;
+      font-weight: 600;
+    }
+    .tabInfoTitle1 {
+      text-align: center;
+      padding: 1em 1.8em;
+      font-size: 0.9em;
+      color: $gray;
+      font-weight: 600;
+      border-bottom: solid 1px $border;
+    }
+    .tabInfoTitle2 {
+      padding-left: 24px;
+      padding-right: 24px;
+      padding-top: 16px;
+      font-size: 0.9em;
+      color: $gray;
+      font-weight: 600;
+    }
+
+    .tags {
+      display: flex;
+      height: auto;
+      flex-wrap: wrap;
+      align-items: center;
+      width: 100%;
+      font-size: 14px;
+      font-weight: 500;
+      color: $text;
+      padding-right: 16px;
+    }
+    .tag {
+      text-align: center;
+      margin-top: 8px;
+      padding: 4px 16px;
+      border: solid 1px $border-green;
+      border-radius: 1.6em;
+      height: 1.4em;
+      margin-right: 8px;
+    }
+    .paddingBottom {
+      margin-bottom: 1.6em;
+    }
+  }
+
+  .tabInfoRow {
+    display: flex;
+    padding: 0.8em 1.8em;
+    border-bottom: solid 1px $border;
+    justify-content: space-between;
+  }
+  .tabInfoRowBottom {
+    padding: 24px;
+    font-size: 0.9em;
+  }
+  .tabInfoColm {
+    padding-right: 1.8em;
+    font-size: 0.9em;
+    width: 8.1em;
+  }
+  .tabInfoColm2 {
+    font-size: 0.9em;
+    width: 50%;
+  }
+  .systemTitleRu {
+    color: $gray;
+    font-weight: 600;
+  }
+  .systemTitleLtColor {
+    color: $systematic;
+    font-style: italic;
+  }
+  .systemTitleLt {
+    color: $text;
+  }
+  .noBorder {
+    border-bottom: 0px solid #555555;
+  }
+}

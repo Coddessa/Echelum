@@ -1,0 +1,59 @@
+.topbar {
+  height: 7.4em;
+  background-color: $greenDark;
+  width: 100vw;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 25.2em;
+  border-bottom-color: $greenLight;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  z-index: 2;
+
+  .MenuContainer {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  .menuText {
+    padding-left: 1.6em;
+    color: $greenVeryLight;
+    font-size: 1.6em;
+    font-weight: 600;
+  }
+
+  .menuText:hover {
+    color: $green;
+  }
+  .MenuContainerItems {
+    display: flex;
+    align-items: center;
+  }
+
+  .addButton {
+    margin-left: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4em;
+    height: 4em;
+    background-color: $green;
+    border-radius: 5em;
+  }
+
+  .searchButton {
+    margin-left: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4em;
+    height: 4em;
+  }
+}
+
+.topbar.active {
+  left: 8em;
+}

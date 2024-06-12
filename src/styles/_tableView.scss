@@ -1,0 +1,196 @@
+.tableContainerTop {
+  width: auto;
+  display: flex;
+  height: 3em;
+  margin-top: 3em;
+
+  .downloadBtn {
+    height: 3em;
+    display: flex;
+    align-items: center;
+    padding-left: 1.4em;
+    padding-right: 1.4em;
+    background-color: $pink;
+    border-radius: 8em;
+    color: white;
+    font-weight: 600;
+    border-color: transparent;
+    margin-left: 2em;
+    box-shadow: 0.5em 0.5em 12em rgba(90, 108, 234, 0.15);
+    font-family: $fontFamily;
+    cursor: pointer;
+  }
+
+  .downloadBtn:hover {
+    background-color: #bf0c57;
+  }
+  .downloadIcon {
+    padding-right: 0.6em;
+  }
+
+  .SearchIcon {
+    height: 40px;
+    width: 40px;
+  }
+
+  .tableSearch {
+    width: 25em;
+    height: 3em;
+    background-color: white;
+    padding-left: 0.8em;
+    box-shadow: 0.5em 0.5em 12em rgba(90, 108, 234, 0.15);
+    border: solid 1px transparent;
+    border-radius: 0.8em;
+    background: url("../assets/icons/searchDark.svg") no-repeat 24em center;
+    padding-left: 1em;
+  }
+  .tableSearch:hover {
+    box-shadow: 0.5em 0.5em 25em rgba(90, 108, 234, 0.5);
+  }
+  .tableSearch::placeholder {
+    font-family: $fontFamily;
+    color: $grayLight;
+  }
+
+  .tableSearch:focus {
+    background-color: $greenVeryLight;
+    font-family: $fontFamily;
+    color: $gray;
+    font-weight: 500;
+  }
+}
+
+.tableContainer {
+  width: auto;
+  height: auto;
+  box-shadow: 0.5em 0.5em 12em rgba(90, 108, 234, 0.15);
+  border-radius: 0.8em;
+  margin-top: 3em;
+  padding: 2em;
+  padding-bottom: 3em;
+}
+
+.secondRow {
+  background-color: rgb(250, 250, 250);
+}
+
+.tr {
+  border-top: solid 1px #ebeff2;
+  font-weight: 500;
+  border-radius: 1em;
+}
+
+.tr:hover {
+  background-color: $greenVeryLight;
+  font-weight: 600;
+}
+
+.th {
+  font-weight: 700;
+  padding-bottom: 1em;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  color: $gray;
+}
+
+.td,
+.th {
+  padding-left: 1.5em;
+  text-align: left;
+  height: 2.5em;
+  font-size: 1.2em;
+}
+
+.paginationContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 2em;
+
+  .page {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 9em;
+    max-width: 15em;
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+  .goToPage {
+    padding-right: 1em;
+  }
+
+  .verticalDivider {
+    padding-right: 1em;
+  }
+
+  .inputPage {
+    margin-left: 1em;
+    padding: 0.6em;
+    width: 3em;
+    font-size: 1.2em;
+    font-family: $fontFamily;
+    color: $gray;
+    border: 1px solid #ebeff2;
+    border-radius: 0.4em;
+  }
+  .inputPage:focus {
+    border: 1px solid $green;
+  }
+
+  .show {
+    border: 1px solid #ebeff2;
+    font-family: $fontFamily;
+    padding: 0.6em;
+    border-radius: 0.4em;
+    font-size: 1.2em;
+    cursor: pointer;
+    outline: none;
+  }
+  .show:focus,
+  .show:active {
+    border: 1px solid $green;
+    cursor: pointer;
+    outline: none;
+  }
+  .option {
+    padding: 0.5em;
+    border: 1px solid #ebeff2;
+    color: $grayLight;
+  }
+
+  .arrowLeft {
+    margin-right: 0.3em;
+  }
+  .arrowLeft:disabled {
+    background-color: $greenLight;
+    cursor: auto;
+  }
+  .arrowLeft,
+  .arrowRight {
+    background-color: $greenDivider;
+    border-radius: 0.4em;
+    border-color: transparent;
+    color: white;
+    padding: 0.2em 0.5em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .arrowLeft,
+  .arrowRight:hover {
+    background-color: $green;
+  }
+}
+
+.end {
+  height: 3em;
+}

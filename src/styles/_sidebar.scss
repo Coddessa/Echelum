@@ -1,0 +1,299 @@
+.sidebar {
+  transition: 0.05s all;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  background-color: $green;
+  width: 25em;
+  height: 100vh;
+  border-right-color: $greenLight;
+  border-right-style: solid;
+  border-right-width: 2px;
+  z-index: 2;
+
+  .sidebarContainer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2em;
+    padding-right: 2em;
+
+    .topContainer {
+      display: flex;
+      align-items: center;
+      padding-top: 1.4em;
+      justify-content: space-between;
+
+      .logoContainer {
+        display: flex;
+        align-items: center;
+        padding: 0.5em;
+        border-radius: 0.8em;
+      }
+
+      .logoContainer:hover {
+        transition: 0.25s all;
+        .logoText {
+          color: $greenVeryLight;
+          cursor: pointer;
+        }
+        background-color: $greenDivider;
+        box-shadow: 1.2em 1em 35em rgba(90, 108, 234, 0.07);
+      }
+      .logoText {
+        color: $greenDark;
+        font-size: 1.6em;
+        font-weight: 600;
+        padding-left: 0.6em;
+      }
+
+      .burgerContainer {
+        width: 4em;
+        height: 4em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.8em;
+        background-color: $greenDark;
+      }
+      .burgerContainer:hover {
+        transition: 0.25s all;
+        background-color: $greenDark;
+        box-shadow: 1.2em 1em 35em rgba(90, 108, 234, 0.07);
+        cursor: pointer;
+        background-color: $greenDivider;
+      }
+    }
+
+    .dividerTop {
+      margin-top: 1.4em;
+      width: 21em;
+      color: $gray;
+      border-bottom-color: $greenDivider;
+      border-bottom-style: solid;
+      border-bottom-width: 2px;
+      border-bottom-left-radius: 1rem;
+      border-bottom-right-radius: 1rem;
+    }
+
+    .viewContainer {
+      display: none;
+      margin-top: 1.4em;
+      padding: 0.5em 0em 0.5em 0.5em;
+      background-color: $greenView;
+      border-radius: 0.8em;
+      box-shadow: 1.2em 1em 35em rgba(90, 108, 234, 0.07);
+
+      .viewButton {
+        display: flex;
+        align-items: center;
+        height: 4em;
+        border-radius: 0.8em;
+        box-shadow: 1.2em 1em 35em rgba(90, 108, 234, 0.07);
+        padding-left: 0.75em;
+        margin-right: 0.5em;
+        cursor: pointer;
+      }
+
+      .viewButton:hover {
+        transition: 0.25s all;
+        background-color: $green;
+      }
+      .viewButton.active,
+      .viewButton.active:hover {
+        transition: 0.25s all;
+        background-color: $greenDark;
+        .viewText {
+          color: $grayVeryLight;
+        }
+      }
+
+      .viewText {
+        padding-left: 1em;
+        color: $grayVeryLight;
+        font-size: 1.2em;
+        font-weight: 600;
+        text-transform: none;
+      }
+    }
+    .viewContainer.disp {
+      display: block;
+    }
+    .dividerView {
+      display: none;
+      margin-top: 1.4em;
+      width: 21em;
+      color: $gray;
+      border-bottom-color: $greenDivider;
+      border-bottom-style: solid;
+      border-bottom-width: 2px;
+      border-bottom-left-radius: 1rem;
+      border-bottom-right-radius: 1rem;
+    }
+    .dividerView.disp {
+      display: block;
+    }
+    .divider {
+      margin-top: 1.4em;
+      width: 21em;
+      color: $gray;
+      border-bottom-color: $greenDivider;
+      border-bottom-style: solid;
+      border-bottom-width: 2px;
+      border-bottom-left-radius: 1rem;
+      border-bottom-right-radius: 1rem;
+    }
+
+    .iconsContainer {
+      padding-top: 0.3em;
+      display: flex;
+      flex-direction: column;
+      width: 21em;
+      .iconContainer {
+        display: flex;
+        align-items: center;
+        padding-top: 1.4em;
+        height: 4em;
+      }
+      .iconContainerTop {
+        display: flex;
+        align-items: center;
+        height: 4em;
+      }
+
+      .iconContainer:hover,
+      .iconContainerTop:hover {
+        transition: 0.25s all;
+        .iconButton {
+          background-color: $greenDivider;
+        }
+        .iconText {
+          color: $gray;
+        }
+      }
+
+      .iconContainer.active,
+      .iconContainer.active:hover,
+      .iconContainerTop.active:hover,
+      .iconContainerTop.active {
+        transition: 0.25s all;
+        .iconButton {
+          background-color: $greenDark;
+        }
+        .iconText {
+          color: $gray;
+        }
+      }
+
+      .iconText {
+        padding-left: 1.6em;
+        color: $greenVeryLight;
+        font-size: 1.6em;
+        font-weight: 600;
+      }
+
+      .iconButton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 4em;
+        height: 4em;
+        background-color: $grayVeryLight;
+        border-radius: 0.8em;
+        box-shadow: 1.2em 1em 35em rgba(90, 108, 234, 0.07);
+      }
+    }
+  }
+}
+
+.sidebar.active {
+  transition: 0.05s all;
+  position: absolute;
+  top: 0;
+  background-color: $green;
+  width: 8em;
+  height: 100vh;
+  border-right-color: $greenLight;
+  border-right-style: solid;
+  border-right-width: 2px;
+  z-index: 2;
+  overflow: hidden;
+  position: fixed;
+
+  .sidebarContainer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2em;
+    padding-right: 2em;
+
+    .topContainer {
+      display: flex;
+      align-items: center;
+      padding-top: 1.4em;
+      justify-content: space-between;
+
+      .logoContainer {
+        display: none;
+      }
+
+      .burgerContainer {
+        display: flex;
+        align-items: center;
+        height: 4em;
+        width: 4em;
+        border-radius: 0.8em;
+        background-color: $greenDark;
+      }
+      .burgerContainer:hover {
+        background-color: $greenDivider;
+        box-shadow: 1.2em 1em 35em rgba(90, 108, 234, 0.07);
+        cursor: pointer;
+      }
+    }
+
+    .dividerTop {
+      margin-top: 1.8em;
+      width: 4em;
+      color: $gray;
+      border-bottom-color: $greenDivider;
+      border-bottom-style: solid;
+      border-bottom-width: 2px;
+      border-bottom-left-radius: 1rem;
+      border-bottom-right-radius: 1rem;
+    }
+    .viewContainer {
+      margin-top: 1.4em;
+      padding: 0.5em 0em 0.5em 0.5em;
+      background-color: $greenView;
+      border-radius: 0.8em;
+      box-shadow: 1.2em 1em 35em rgba(90, 108, 234, 0.07);
+      .viewButton {
+        display: flex;
+        align-items: center;
+        height: 4em;
+        border-radius: 0.8em;
+        box-shadow: 1.2em 1em 35em rgba(90, 108, 234, 0.07);
+        padding-left: 0.75em;
+        margin-right: 0.5em;
+        cursor: pointer;
+      }
+
+      .viewText {
+        display: none;
+      }
+    }
+    .divider,
+    .dividerView {
+      width: 4em;
+    }
+
+    .iconsContainer {
+      width: 6em;
+      .iconText {
+        display: none;
+      }
+      .iconTextActive {
+        display: none;
+      }
+    }
+  }
+}

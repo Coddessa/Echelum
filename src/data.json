@@ -1,0 +1,626 @@
+[
+  {
+    "genus": "Aeonium ",
+    "code": "Aeo.a7",
+    "species": "Arnoldii",
+    "plant": "черенок на 1 голову",
+    "purchase price": 7,
+    "seller": "Наталья",
+    "Date of purchase": "15,03,2024"
+  },
+  {
+    "genus": "Aeonium ",
+    "code": "Aeo.h2",
+    "species": "Kiwi",
+    "plant": "черенок на 1 голову",
+    "purchase price": 4,
+    "seller": "Наталья",
+    "Date of purchase": "15,03,2024"
+  },
+  {
+    "genus": "Aeonium ",
+    "code": "Aeo.l6",
+    "species": "Leucoblepharum",
+    "plant": "срез 1 головы",
+    "purchase price": 7,
+    "seller": "Наталья",
+    "Date of purchase": "15,03,2024"
+  },
+  {
+    "genus": "Aeonium ",
+    "code": "Aeo.l8",
+    "species": "Lily pad",
+    "plant": "черенок на 1 голову",
+    "purchase price": 7,
+    "seller": "Наталья",
+    "Date of purchase": "15,03,2024"
+  },
+  {
+    "genus": "Aeonium ",
+    "code": "Aeo.l9",
+    "species": "Lindleyi variegata",
+    "plant": "черенок ~ 4-5см ",
+    "purchase price": 7,
+    "seller": "Наталья",
+    "Date of purchase": "15,03,2024"
+  },
+  {
+    "genus": "Aeonium ",
+    "code": "Aeo.spp",
+    "species": "Mascaense ",
+    "purchase price": 1,
+    "seller": "Пользователь",
+    "Date of purchase": "15,03,2024",
+    "notes": "14) Эониум"
+  },
+  {
+    "genus": "Aeonium ",
+    "code": "Aeo.s4",
+    "species": "Saundersii",
+    "plant": "черенок на 1 голову",
+    "purchase price": 7,
+    "seller": "Наталья",
+    "Date of purchase": "15,03,2024"
+  },
+  {
+    "genus": "Aeonium ",
+    "code": "Aeo.s5",
+    "species": "Sedifolium",
+    "purchase price": "gift",
+    "seller": "Наталья",
+    "Date of purchase": "15,03,2024"
+  },
+  {
+    "genus": "Aeonium ",
+    "code": "Aeo.v3",
+    "species": "Velour",
+    "plant": "одна небольшая голова ~1.5-2см ",
+    "purchase price": 5,
+    "seller": "Наталья",
+    "Date of purchase": "15,03,2024"
+  },
+  {
+    "genus": "Aeonium ",
+    "code": "Aeo.spp",
+    "species": "spp.",
+    "Date of purchase": "00,00,2023"
+  },
+  {
+    "genus": "Aloe",
+    "code": "Ale",
+    "species": "Rauhii cv. Snowflake",
+    "purchase price": 3,
+    "seller": "П-ль Юлия",
+    "Date of purchase": "00,00,2023"
+  },
+  {
+    "genus": "Cotyledon ",
+    "code": "Cot",
+    "species": "sp.",
+    "purchase price": 9,
+    "seller": "Юлия",
+    "Date of purchase": "00,00,2023"
+  },
+  {
+    "genus": "Crassula ",
+    "code": "Cra",
+    "species": "Tom Thumb",
+    "purchase price": 1,
+    "seller": "Пользователь",
+    "Date of purchase": "00,00,2024",
+    "notes": "13) Толстянка крассула Томб-Тумб"
+  },
+  {
+    "genus": "Crassula ",
+    "code": "Cra",
+    "species": "Perforata",
+    "purchase price": 2,
+    "seller": "Яна",
+    "Date of purchase": "00,00,2023"
+  },
+  {
+    "genus": "Crassula ",
+    "code": "Cra",
+    "species": "Morgan's beauty",
+    "purchase price": 12,
+    "seller": "Наталья",
+    "Date of purchase": "00,00,2023"
+  },
+  {
+    "genus": "Crassula ",
+    "code": "Cra",
+    "species": "Pubescens",
+    "purchase price": 7,
+    "seller": "Наталья",
+    "Date of purchase": "00,00,2023"
+  },
+  {
+    "genus": "Crassula ",
+    "code": "Cra",
+    "species": "Lanuginosa",
+    "purchase price": 2,
+    "seller": "Наталья",
+    "Date of purchase": "00,00,2023"
+  },
+  {
+    "genus": "Crassula ",
+    "code": "Cra",
+    "species": "Baby's necklace",
+    "purchase price": 5,
+    "seller": "Наталья",
+    "Date of purchase": "00,00,2023"
+  },
+  {
+    "genus": "Crassula ",
+    "code": "Cra",
+    "species": "Nealeana",
+    "purchase price": 3,
+    "seller": "Наталья",
+    "Date of purchase": "00,00,2023"
+  },
+  {
+    "genus": "Echeveria",
+    "code": "Ech",
+    "species": "Black prince",
+    "plant": "листик",
+    "purchase price": 1.5,
+    "seller": "Юлия",
+    "Date of purchase": "00,00,2024"
+  },
+  {
+    "genus": "Echeveria",
+    "code": "Ech",
+    "species": "Blue metal",
+    "plant": "листик",
+    "purchase price": 2,
+    "seller": "Юлия",
+    "Date of purchase": "00,00,2024"
+  },
+  {
+    "genus": "Echeveria",
+    "code": "Ech",
+    "species": "Crispate Beauty",
+    "purchase price": 20,
+    "seller": "Яна",
+    "Date of purchase": 23
+  },
+  {
+    "genus": "Echeveria",
+    "code": "Ech",
+    "species": "Cubic Frost",
+    "purchase price": 1,
+    "seller": "Пользователь",
+    "Date of purchase": 24,
+    "notes": "2) Эхеверия Кубик Фрост"
+  },
+  {
+    "genus": "Echeveria",
+    "code": "Ech",
+    "species": "Deborah",
+    "plant": "листик",
+    "purchase price": 2,
+    "seller": "Юлия",
+    "Date of purchase": 24
+  },
+  {
+    "genus": "Echeveria",
+    "code": "Ech",
+    "species": "Madiba",
+    "plant": "листик",
+    "purchase price": 2.5,
+    "seller": "Юлия",
+    "Date of purchase": 24
+  },
+  {
+    "genus": "Echeveria",
+    "code": "Ech",
+    "species": "Marble",
+    "plant": "листик",
+    "purchase price": 4,
+    "seller": "Юлия",
+    "Date of purchase": 24
+  },
+  {
+    "genus": "Echeveria",
+    "code": "Ech",
+    "species": "Marrom",
+    "purchase price": 1,
+    "seller": "Пользователь",
+    "Date of purchase": 24,
+    "notes": "6) Эхеверия Маррум"
+  },
+  {
+    "genus": "Echeveria",
+    "code": "Ech",
+    "species": "Nodulosa",
+    "purchase price": 1,
+    "seller": "Пользователь",
+    "Date of purchase": 24,
+    "notes": "5) Эхеверия Нодулоза (с фиолетовыми полосами при ярком освещении)"
+  },
+  {
+    "genus": "Echeveria",
+    "code": "Ech",
+    "species": "Perle von Nürnberg",
+    "purchase price": 3,
+    "seller": "Ольга",
+    "Date of purchase": 23
+  },
+  {
+    "genus": "Echeveria",
+    "code": "Ech",
+    "species": "Pollux",
+    "purchase price": 3,
+    "seller": "Яна",
+    "Date of purchase": 23
+  },
+  {
+    "genus": "Echeveria",
+    "code": "Ech",
+    "species": "Prolifica",
+    "purchase price": 2,
+    "seller": "Ольга",
+    "Date of purchase": 23
+  },
+  {
+    "genus": "Echeveria",
+    "code": "Ech",
+    "species": "Pulvinata Frosty",
+    "plant": " cristata",
+    "purchase price": 3,
+    "seller": "П-ль Юлия",
+    "Date of purchase": 23
+  },
+  {
+    "genus": "Echeveria",
+    "code": "Ech",
+    "species": "Purple Dream",
+    "purchase price": 4,
+    "seller": "Яна",
+    "Date of purchase": 23
+  },
+  {
+    "genus": "Echeveria",
+    "code": "Ech",
+    "species": "Roma",
+    "plant": "листик",
+    "purchase price": 2.5,
+    "seller": "Юлия",
+    "Date of purchase": 24
+  },
+  {
+    "genus": "Echeveria",
+    "code": "Ech",
+    "species": "Ruby Donna",
+    "plant": "листик",
+    "purchase price": 2,
+    "seller": "Юлия",
+    "Date of purchase": 24
+  },
+  {
+    "genus": "Echeveria",
+    "code": "Ech",
+    "species": "Schedeckeri",
+    "plant": "самая крупная голова",
+    "purchase price": 1,
+    "seller": "Пользователь",
+    "Date of purchase": 24,
+    "notes": "1) Эхеверия Шейдекери (самая крупная голова)"
+  },
+  {
+    "genus": "Echeveria",
+    "code": "Ech",
+    "species": "sp.",
+    "purchase price": 7,
+    "seller": "Яна",
+    "Date of purchase": 23
+  },
+  {
+    "genus": "Echeveria",
+    "code": "Ech",
+    "species": "spp.",
+    "purchase price": 1,
+    "seller": "Пользователь",
+    "Date of purchase": 24,
+    "notes": "7) Эхеверия spp. (возможно разновидность Пульвинаты)"
+  },
+  {
+    "genus": "Echeveria",
+    "code": "Ech",
+    "species": "Topsy Turvy",
+    "purchase price": 1,
+    "seller": "Пользователь",
+    "Date of purchase": 24,
+    "notes": "3) Эхеверия Топси-Турви"
+  },
+  {
+    "genus": "Echeveria",
+    "code": "Ech",
+    "species": "Trampet pinky",
+    "purchase price": 43,
+    "seller": "Юлия",
+    "Date of purchase": 23
+  },
+  {
+    "genus": "Echeveria",
+    "code": "Ech",
+    "species": "Trompette",
+    "plant": "Листик",
+    "purchase price": 3,
+    "seller": "Ксения",
+    "Date of purchase": 24
+  },
+  {
+    "genus": "Echeveria",
+    "code": "Ech",
+    "species": "spp.",
+    "purchase price": "gift",
+    "seller": "Пользователь",
+    "Date of purchase": 24
+  },
+  {
+    "genus": "Echeveria",
+    "code": "Ech",
+    "species": "xPulidonis (spp.)",
+    "purchase price": 1,
+    "seller": "Пользователь",
+    "Date of purchase": 24,
+    "notes": "4) Эхеверия с розовым краем листа (гибрид Пулидонис)"
+  },
+  {
+    "genus": "xGraptosedum",
+    "code": "xGrs",
+    "species": "Francesco Baldi ",
+    "purchase price": 3,
+    "seller": "Яна",
+    "Date of purchase": 23
+  },
+  {
+    "genus": "xGraptoveria ",
+    "code": "xGrv",
+    "species": "Harry Watson",
+    "plant": "листик",
+    "purchase price": 2,
+    "seller": "Юлия",
+    "Date of purchase": 24
+  },
+  {
+    "genus": "xGraptoveria ",
+    "code": "xGrv",
+    "species": "Gilva ",
+    "purchase price": 1,
+    "seller": "Пользователь",
+    "Date of purchase": 24,
+    "notes": "10) Граптоверия янтарная"
+  },
+  {
+    "genus": "xGraptoveria ",
+    "code": "xGrv",
+    "species": "Milky Way",
+    "purchase price": 6,
+    "seller": "Яна",
+    "Date of purchase": 23
+  },
+  {
+    "genus": "Haworthia",
+    "code": "Haw",
+    "species": "Cymbiformis Obtusa ",
+    "plant": "(3 детки)",
+    "purchase price": 1,
+    "seller": "Пользователь",
+    "Date of purchase": 24,
+    "notes": "11) Хавортия Ладьевидная Притупленная / Cymbiformis Obtusa (3 детки)"
+  },
+  {
+    "genus": "Haworthia",
+    "code": "Haw",
+    "species": "Mirabilis",
+    "purchase price": 1,
+    "seller": "Пользователь",
+    "Date of purchase": 24,
+    "notes": "12) Хавортия Мирабилис"
+  },
+  {
+    "genus": "Haworthia",
+    "code": "Haw",
+    "species": "Limifolia Gollel",
+    "purchase price": 3,
+    "seller": "П-ль Юлия",
+    "Date of purchase": 23
+  },
+  {
+    "genus": "Haworthia",
+    "code": "Haw",
+    "species": "Cymbiformis v. Planifolia",
+    "purchase price": 2,
+    "seller": "П-ль Юлия",
+    "Date of purchase": 23
+  },
+  {
+    "genus": "Haworthia",
+    "code": "Haw",
+    "species": "Viscosa",
+    "purchase price": 2,
+    "seller": "П-ль Юлия",
+    "Date of purchase": 23
+  },
+  {
+    "genus": "Haworthia",
+    "code": "Haw",
+    "species": "Reinwardtii v. Zebrina",
+    "purchase price": 3,
+    "seller": "П-ль Юлия",
+    "Date of purchase": 23
+  },
+  {
+    "genus": "Kalanchoe",
+    "code": "Kal",
+    "species": "Orygalis",
+    "purchase price": 10,
+    "seller": "Татьяна",
+    "Date of purchase": 23
+  },
+  {
+    "genus": "Kalanchoe",
+    "code": "Kal",
+    "species": "Rhombopilosa",
+    "purchase price": 8,
+    "seller": "Татьяна",
+    "Date of purchase": 23
+  },
+  {
+    "genus": "Kalanchoe",
+    "code": "Kal",
+    "species": "spp. Marmorata ?",
+    "purchase price": 2,
+    "seller": "Яна",
+    "Date of purchase": 23
+  },
+  {
+    "genus": "Kalanchoe",
+    "code": "Kal",
+    "species": "Fedrschenkoi",
+    "purchase price": 4,
+    "seller": "Татьяна",
+    "Date of purchase": 23
+  },
+  {
+    "genus": "Kalanchoe",
+    "code": "Kal",
+    "species": "Milotti",
+    "purchase price": 4,
+    "seller": "Яна",
+    "Date of purchase": 23
+  },
+  {
+    "genus": "xLenaptopetalum, xLenopetalum, xLengraptophyllum ",
+    "code": "xLet",
+    "species": "cv. Chocolate",
+    "plant": "веточка",
+    "purchase price": 7,
+    "seller": "Ксения",
+    "Date of purchase": 24
+  },
+  {
+    "genus": "Lenophyllum ",
+    "code": "Len",
+    "species": "Guttatum",
+    "Date of purchase": 23
+  },
+  {
+    "genus": "Mestoklema",
+    "code": "Mes",
+    "species": "sp.",
+    "seller": "Наталья",
+    "Date of purchase": 23
+  },
+  {
+    "genus": "Monanthes",
+    "code": "Mon",
+    "species": "Moralis",
+    "seller": "Наталья",
+    "Date of purchase": 23
+  },
+  {
+    "genus": "Pachyphytum ",
+    "code": "Pac",
+    "species": "Apple Beauty (Корея)",
+    "plant": "Срез 08.03.24, без корней",
+    "purchase price": 7,
+    "seller": "Ксения",
+    "Date of purchase": 24
+  },
+  {
+    "genus": "Pachyphytum ",
+    "code": "Pac",
+    "species": "Baby Finger",
+    "plant": "листик",
+    "purchase price": 1.5,
+    "seller": "Юлия",
+    "Date of purchase": 24
+  },
+  {
+    "genus": "Pachyphytum ",
+    "code": "Pac",
+    "species": "Compactum",
+    "purchase price": 1,
+    "seller": "Пользователь",
+    "Date of purchase": 24,
+    "notes": "9) Пахифитум Компактум"
+  },
+  {
+    "genus": "Pachyphytum ",
+    "code": "Pac",
+    "species": "Guangzhou",
+    "purchase price": 15,
+    "seller": "Юлия",
+    "Date of purchase": 23
+  },
+  {
+    "genus": "Pachyphytum ",
+    "code": "Pac",
+    "species": "Mendozae (Корея)",
+    "plant": " черенки 2 см в диаметре и 3 см в высоту. Срез 09.03.24. Без корней (быстро укореняются).",
+    "purchase price": 4,
+    "seller": "Ксения",
+    "Date of purchase": 24
+  },
+  {
+    "genus": "Pachyphytum ",
+    "code": "Pac",
+    "species": "Oviferum",
+    "Date of purchase": 23
+  },
+  {
+    "genus": "Pachyphytum ",
+    "code": "Pac",
+    "species": "Werdermanii",
+    "plant": "Листики с мелкими детками и первыми корешками",
+    "purchase price": 2,
+    "seller": "Ксения",
+    "Date of purchase": 24
+  },
+  {
+    "genus": "xPachyveria ",
+    "code": "xPav",
+    "species": "Blue Mist",
+    "purchase price": 1,
+    "seller": "Пользователь",
+    "Date of purchase": 24,
+    "notes": "8) Пахиверия Блю Мист"
+  },
+  {
+    "genus": "xPachyveria ",
+    "code": "xPav",
+    "species": "Pachyphytoides",
+    "purchase price": 6,
+    "seller": "Юлия",
+    "Date of purchase": 23
+  },
+  {
+    "genus": "xSedeveria ",
+    "code": "xSev",
+    "species": "Markus",
+    "plant": "листик",
+    "purchase price": 1,
+    "seller": "Юлия",
+    "Date of purchase": 24
+  },
+  {
+    "genus": "Sedum ",
+    "code": "Sed",
+    "species": "Nussbaumerianum",
+    "purchase price": 1,
+    "seller": "Пользователь",
+    "Date of purchase": 24,
+    "notes": "15) Очиток Нуссбаумера"
+  },
+  {
+    "genus": "Sedum ",
+    "code": "Sed",
+    "species": "Joyce Tulloch",
+    "purchase price": 4,
+    "seller": "Яна",
+    "Date of purchase": 23
+  }
+]

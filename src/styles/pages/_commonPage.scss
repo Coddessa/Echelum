@@ -1,0 +1,31 @@
+.pageContainer {
+  margin-left: 28em;
+  padding-top: 5em;
+  width: calc(100vw - 63em);
+  height: auto;
+}
+
+.pageContainer.active {
+  margin-left: 11em;
+  width: calc(100vw - 46em);
+}
+
+.title {
+  display: none;
+}
+
+.breadcrumbs {
+  padding-top: 3em;
+  font-size: 1.2em;
+  color: $grayLight;
+  text-decoration: none;
+
+  .breadcrumbsHref {
+    text-decoration: none;
+    color: $grayLight;
+  }
+
+  .breadcrumbsHref:hover {
+    color: $gray;
+  }
+}
