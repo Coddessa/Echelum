@@ -10,7 +10,9 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import chemicalData from "../data/chemicalData";
+import propertiesData from "../data/propertiesData";
 
+//стилизация табов
 const TagsList = ({ places }) => {
   return (
     <div className="tags">
@@ -84,6 +86,8 @@ function a11yProps(index) {
   };
 }
 
+///////////////////////////////////////////////////////////
+
 export default function HerbalistTabs({ tabData, plantData }) {
   const [value, setValue] = useState(0);
 
@@ -92,6 +96,9 @@ export default function HerbalistTabs({ tabData, plantData }) {
   };
 
   const tabValues = Object.values(tabData);
+
+  /////////////////////////////////////////////////////////
+  //// СОСТАВ
 
   // Получаем массив частей растения
   let parts = plantData.compositionDetails.parts;
@@ -132,7 +139,8 @@ export default function HerbalistTabs({ tabData, plantData }) {
     allDescriptions.push(partDescriptions);
   });
 
-  /////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////
+
   // Объект для хранения данных
   const data = {};
 
@@ -176,13 +184,13 @@ export default function HerbalistTabs({ tabData, plantData }) {
           data[partIndex][groupIndex][elementIndex] = elementData;
 
           // Отладочные строки внутри цикла
-          console.log("Properties:", elementData.properties);
-          console.log("Contraindications:", elementData.contraindications);
+          console.log();
+          console.log();
         } else {
           console.log(
             "Элемент",
             plantElementName,
-            "не найден в базе данных chemicalData."
+            "не найден в бд chemicalData."
           );
         }
       });
@@ -190,7 +198,36 @@ export default function HerbalistTabs({ tabData, plantData }) {
   });
 
   // Печать итогового объекта данных
-  console.log("Data object:", data);
+  //console.log();
+
+  /////////////////////////////////////////////////////////
+  /////СВОЙСТВА
+
+  const enrichedPropertiesData = plantData.propertiesDetails.map(
+    (propertyDetail) => {
+      const propertyData = propertiesData.find(
+        (data) => data.propertiesName === propertyDetail.title
+      );
+
+      if (propertyData) {
+        return {
+          ...propertyDetail,
+          propertiesSecondName: propertyData.propertiesSecondName,
+          description: propertyData.description,
+          medicine: propertyData.medicine,
+        };
+      } else {
+        return {
+          ...propertyDetail,
+          propertiesSecondName: "Not found",
+          description: "Not found",
+          medicine: [],
+        };
+      }
+    }
+  );
+
+  console.log(enrichedPropertiesData);
 
   return (
     <ThemeProvider theme={theme}>
@@ -560,6 +597,142 @@ export default function HerbalistTabs({ tabData, plantData }) {
                       </div>
                     </div>
                   ))}
+                </div>
+
+                <div className="paddingBottom"></div>
+              </div>
+            </div>
+          </div>
+        </CustomTabPanel>
+        <CustomTabPanel value={value} index={2}>
+          <div className="tabContainer">
+            <div className="tabText">
+              <div className="descriptionColm">
+                <div>
+                  {" "}
+                  <div className="propertiesDescription">
+                    {" "}
+                    {plantData.propertiesDescription}
+                  </div>
+                  <div className="partTitle">Лекарственные свойства</div>{" "}
+                  <div className="propertiesContainer">
+                    {enrichedPropertiesData.map((property, index) => (
+                      <div key={index} className="propertyItem">
+                        <div className="propertyTitle">
+                          {property.title}{" "}
+                          <span className="propertyTitle">
+                            {property.propertiesSecondName
+                              ? ` •  ${property.propertiesSecondName}`
+                              : ""}
+                          </span>
+                        </div>
+
+                        <div className="propertyDescription">
+                          {property.description}
+                        </div>
+
+                        <div>
+                          <div className="propertyMedicineTitle">
+                            Применяется для лечения:
+                          </div>
+                          <ul className="propertyMedicine">
+                            {property.medicine.map((med, medIndex) => (
+                              <li
+                                className="propertyMedicineItem"
+                                key={medIndex}>
+                                - {med}
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                  <div className="partTitle">Противопоказания</div>
+                  <div className="contraindicationContainer">
+                    {plantData.propertiescontraindications.map(
+                      (contraindication, index) => (
+                        <div key={index}>
+                          <div className="contraindicationTitle">
+                            {contraindication.title}
+                          </div>
+                          <div className="contraindicationDescription">
+                            {contraindication.description}
+                          </div>
+                        </div>
+                      )
+                    )}
+                  </div>
+                </div>
+
+                <div className="partTitle">Источники</div>
+                <ul>
+                  <a
+                    className="href"
+                    href={plantData.сompositionStudies[0].link}>
+                    <li>
+                      <div className="subTitleBold">
+                        {plantData.сompositionStudies[0].source}
+                      </div>
+                      <div>{plantData.сompositionStudies[0].title}</div>
+                      <div>{plantData.сompositionStudies[0].description}</div>
+                    </li>
+                  </a>
+                  <a
+                    className="href"
+                    href={plantData.сompositionStudies[1].link}>
+                    <li>
+                      <div className="subTitleBold">
+                        {plantData.сompositionStudies[1].source}
+                      </div>
+                      <div>{plantData.сompositionStudies[1].title}</div>
+                      <div>{plantData.сompositionStudies[1].description}</div>
+                    </li>
+                  </a>
+                  <a
+                    className="href"
+                    href={plantData.сompositionStudies[2].link}>
+                    <li>
+                      <div className="subTitleBold">
+                        {plantData.сompositionStudies[2].source}
+                      </div>
+                      <div>{plantData.сompositionStudies[2].title}</div>
+                      <div>{plantData.сompositionStudies[2].description}</div>
+                    </li>
+                  </a>
+                </ul>
+                <div className="date">
+                  {" "}
+                  Дата создания {plantData.сompositionCreateDate}
+                </div>
+              </div>
+            </div>
+
+            <div className="tabInfoContainer">
+              <div className="tabInfo">
+                <div>
+                  <div>
+                    <div className="tabInfoTitle">Лекарственные свойства</div>
+                    <div className="tagContainer">
+                      {enrichedPropertiesData.map((property, index) => (
+                        <div key={index}>
+                          <div className="tabInfoTitle2">
+                            {property.title}{" "}
+                            {property.propertiesSecondName
+                              ? ` •  ${property.propertiesSecondName}`
+                              : ""}
+                            <div className="tags">
+                              {property.medicine.map((med, medIndex) => (
+                                <div key={medIndex} className="tag">
+                                  {med}
+                                </div>
+                              ))}
+                            </div>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
                 </div>
 
                 <div className="paddingBottom"></div>
